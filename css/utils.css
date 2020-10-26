@@ -98,6 +98,10 @@
   grid-template-columns: 1fr 1fr 1fr;
 }
 
+.grid-footer {
+  grid-template-columns: 2fr 2fr 2fr 2fr 4fr;
+}
+
 /* Margin */
 
 .my-1 {

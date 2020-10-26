@@ -14,7 +14,7 @@
     <title>Poblano | Cloud Hosting Made Simple</title>
   </head>
   <body>
-    <header>
+    <!-- <header>
       <div class="navbar">
         <div class="container flex">
           <h1 class="logo">Poblano</h1>
@@ -28,130 +28,186 @@
           </nav>
         </div>
       </div>
-      <section class="showcase">
-        <div class="container grid">
-          <div class="showcase-text">
-            <h1>Easy Deployment</h1>
-            <p>
-              Choose Poblano for the same reasons disruptive startups do: it’s
-              the best platform for building with modern architectures,
-              innovating quickly, and scaling precisely to meet demand.
-            </p>
-            <a href="products.html" class="btn btn-outline">Read More</a>
+    </header>
+    <section class="showcase">
+      <div class="container grid">
+        <div class="showcase-text">
+          <h1>Easy Deployment</h1>
+          <p>
+            Choose Poblano for the same reasons disruptive startups do: it’s the
+            best platform for building with modern architectures, innovating
+            quickly, and scaling precisely to meet demand.
+          </p>
+          <a href="products.html" class="btn btn-outline">Read More</a>
+        </div>
+        <div class="showcase-form card">
+          <h2>Request a demo</h2>
+          <form>
+            <div class="form-control">
+              <input required type="text" name="name" placeholder="Name" />
+            </div>
+            <div class="form-control">
+              <input
+                required
+                type="text"
+                name="company"
+                placeholder="Company Name"
+              />
+            </div>
+            <div class="form-control">
+              <input required type="email" name="email" placeholder="Email" />
+            </div>
+            <input type="submit" value="Send" class="btn btn-primary" />
+          </form>
+        </div>
+      </div>
+    </section>
+    <section class="stats">
+      <div class="container">
+        <h3 class="stats-header text-center my-1">
+          Whether you're building a simple prototype or a business-critical
+          product, Poblano's fully-managed platform gives you the simplest path
+          to delivering apps quickly.
+        </h3>
+
+        <div class="grid grid-3 text-center my-4">
+          <div>
+            <div class="stats-icon" id="deployments"></div>
+            <h3>10,275,295</h3>
+            <p class="text-secondary">Deployments</p>
           </div>
-          <div class="showcase-form card">
-            <h2>Request a demo</h2>
+          <div>
+            <div class="stats-icon" id="published"></div>
+            <h3>572 TB</h3>
+            <p class="text-secondary">Published</p>
+          </div>
+          <div>
+            <div class="stats-icon" id="projects"></div>
+            <h3>3,275,991</h3>
+            <p class="text-secondary">Projects</p>
+          </div>
+        </div>
+      </div>
+    </section> -->
+    <section class="cli">
+      <div class="container grid">
+        <div class="cli-window">
+          <div class="cli-btn"></div>
+          <div class="cli-btn"></div>
+          <div class="cli-btn"></div>
+          <span class="cli-text">npm install -g poblano-cli</span>
+        </div>
+        <div class="card">
+          <h3>Easy to use, cross platform CLI</h3>
+        </div>
+        <div class="card"><h3>Deploy in seconds</h3></div>
+      </div>
+    </section>
+    <section class="cloud bg-primary my-2 py-4">
+      <div class="container grid">
+        <div class="text-center">
+          <h2 class="lg">Powerful Cloud Hosting</h2>
+          <p class="lead my-1">
+            Network isolated, dedicated runtime environments for enhanced
+            privacy, power, and performance.
+          </p>
+          <a href="products.html" class="btn btn-dark">Learn More</a>
+        </div>
+        <div class="cloud-img"></div>
+      </div>
+    </section>
+    <section class="languages">
+      <h2 class="md text-center my-2">Officially Supported Languages</h2>
+      <div class="container flex">
+        <div class="card">
+          <img src="assets/img/node.png" alt="Node.js" />
+          <h3>Node.js</h3>
+        </div>
+        <div class="card">
+          <img src="assets/img/python.png" alt="" />
+          <h3>Python</h3>
+        </div>
+        <div class="card">
+          <img src="assets/img/csharp.png" alt="" />
+          <h3>C#</h3>
+        </div>
+        <div class="card">
+          <img src="assets/img/ruby.png" alt="" />
+          <h3>Ruby</h3>
+        </div>
+        <div class="card">
+          <img src="assets/img/php.png" alt="" />
+          <h3>PHP</h3>
+        </div>
+        <div class="card">
+          <img src="assets/img/scala.png" alt="" />
+          <h3>Scala</h3>
+        </div>
+        <div class="card">
+          <img src="assets/img/clojure.png" alt="" />
+          <h3>Clojure</h3>
+        </div>
+        <div class="card">
+          <img src="assets/img/go.png" alt="" />
+          <h3>Go</h3>
+        </div>
+      </div>
+    </section>
+    <footer class="footer bg-light py-5">
+      <div class="container top">
+        <div class="grid grid-footer">
+          <div id="products">
+            <h3>Products</h3>
+            <ul>
+              <li><a href="!#">Platform</a></li>
+              <li><a href="!#">Data Services</a></li>
+              <li><a href="!#">Enterprise</a></li>
+              <li><a href="!#">Teams</a></li>
+              <li><a href="!#">Marketplace</a></li>
+            </ul>
+          </div>
+          <div id="resources">
+            <h3>Resources</h3>
+            <ul>
+              <li><a href="!#">Documentation</a></li>
+              <li><a href="!#">Compliance Center</a></li>
+              <li><a href="!#">Blog</a></li>
+              <li><a href="!#">Podcasts</a></li>
+              <li><a href="!#">Get Started</a></li>
+            </ul>
+          </div>
+          <div id="about">
+            <h3>About</h3>
+            <ul>
+              <li><a href="!#">About Us</a></li>
+              <li><a href="!#">What is Poblano</a></li>
+              <li><a href="!#">Our Customers</a></li>
+              <li><a href="!#">Careers</a></li>
+              <li><a href="!#">Partners</a></li>
+            </ul>
+          </div>
+          <div id="support">
+            <h3>Support</h3>
+            <ul>
+              <li><a href="!#">Help Center</a></li>
+              <li><a href="!#">Status</a></li>
+              <li><a href="!#">Premium Support</a></li>
+              <li><a href="!#">Contact Us</a></li>
+              <li><a href="!#"></a></li>
+            </ul>
+          </div>
+          <div id="right-col" class="footer-form">
+            <span>Subscribe to our montly newsletter</span>
             <form>
+              <label for="email">Your email address:</label>
               <div class="form-control">
-                <input required type="text" name="name" placeholder="Name" />
+                <input type="email" name="email" id="email" required />
+                <input type="submit" value="GO" class="btn btn-primary" />
               </div>
-              <div class="form-control">
-                <input
-                  required
-                  type="text"
-                  name="company"
-                  placeholder="Company Name"
-                />
-              </div>
-              <div class="form-control">
-                <input required type="email" name="email" placeholder="Email" />
-              </div>
-              <input type="Submit" value="Send" class="btn btn-primary" />
             </form>
           </div>
         </div>
-      </section>
-      <section class="stats">
-        <div class="container">
-          <h3 class="stats-header text-center my-1">
-            Whether you're building a simple prototype or a business-critical
-            product, Poblano's fully-managed platform gives you the simplest
-            path to delivering apps quickly.
-          </h3>
-
-          <div class="grid grid-3 text-center my-4">
-            <div>
-              <div class="stats-icon" id="deployments"></div>
-              <h3>10,275,295</h3>
-              <p class="text-secondary">Deployments</p>
-            </div>
-            <div>
-              <div class="stats-icon" id="published"></div>
-              <h3>572 TB</h3>
-              <p class="text-secondary">Published</p>
-            </div>
-            <div>
-              <div class="stats-icon" id="projects"></div>
-              <h3>3,275,991</h3>
-              <p class="text-secondary">Projects</p>
-            </div>
-          </div>
-        </div>
-      </section>
-      <section class="cli">
-        <div class="container grid">
-          <div class="cli-window">
-            <div class="cli-btn"></div>
-            <div class="cli-btn"></div>
-            <div class="cli-btn"></div>
-            <span class="cli-text">npm install -g poblano-cli</span>
-          </div>
-          <div class="card">
-            <h3>Easy to use, cross platform CLI</h3>
-          </div>
-          <div class="card"><h3>Deploy in seconds</h3></div>
-        </div>
-      </section>
-      <section class="cloud bg-primary my-2 py-4">
-        <div class="container grid">
-          <div class="text-center">
-            <h2 class="lg">Powerful Cloud Hosting</h2>
-            <p class="lead my-1">
-              Network isolated, dedicated runtime environments for enhanced
-              privacy, power, and performance.
-            </p>
-            <a href="products.html" class="btn btn-dark">Learn More</a>
-          </div>
-          <div class="cloud-img"></div>
-        </div>
-      </section>
-      <section class="languages">
-        <h2 class="md text-center my-2">Officially Supported Languages</h2>
-        <div class="container flex">
-          <div class="card">
-            <img src="assets/img/node.png" alt="Node.js" />
-            <h3>Node.js</h3>
-          </div>
-          <div class="card">
-            <img src="assets/img/python.png" alt="" />
-            <h3>Python</h3>
-          </div>
-          <div class="card">
-            <img src="assets/img/csharp.png" alt="" />
-            <h3>C#</h3>
-          </div>
-          <div class="card">
-            <img src="assets/img/ruby.png" alt="" />
-            <h3>Ruby</h3>
-          </div>
-          <div class="card">
-            <img src="assets/img/php.png" alt="" />
-            <h3>PHP</h3>
-          </div>
-          <div class="card">
-            <img src="assets/img/scala.png" alt="" />
-            <h3>Scala</h3>
-          </div>
-          <div class="card">
-            <img src="assets/img/clojure.png" alt="" />
-            <h3>Clojure</h3>
-          </div>
-          <div class="card">
-            <img src="assets/img/go.png" alt="" />
-            <h3>Go</h3>
-          </div>
-        </div>
-      </section>
-    </header>
+      </div>
+    </footer>
   </body>
 </html>
