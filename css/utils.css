@@ -5,6 +5,7 @@
   margin: 0 auto;
   overflow: auto;
   padding: 0 40px;
+  /* overflow: hidden; */
 }
 
 .card {
