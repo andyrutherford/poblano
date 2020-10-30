@@ -119,6 +119,10 @@ code {
   overflow: visible;
 }
 
+.showcase-text {
+  animation: slideInFromLeft 0.5s ease-in;
+}
+
 .showcase-form {
   position: relative;
   top: 60px;
@@ -127,6 +131,7 @@ code {
   padding: 40px;
   z-index: 100;
   justify-self: flex-end;
+  animation: slideInFromRight 0.5s ease-in;
 }
 
 .showcase-form .form-control {
@@ -165,6 +170,7 @@ code {
 
 .stats {
   padding-top: 100px;
+  animation: slideInFromBottom 0.5s ease-in;
 }
 
 .stats-header {
@@ -427,6 +433,46 @@ hr {
 .socials img {
   height: 25px;
   width: 25px;
+}
+
+/* Animations */
+@keyframes slideInFromLeft {
+  0% {
+    opacity: 0;
+    transform: translateX(-35%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromRight {
+  0% {
+    opacity: 0;
+    transform: translateX(35%);
+  }
+
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes slideInFromTop {
+  0% {
+    opacity: 0;
+    transform: translateY(-35%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+@keyframes slideInFromBottom {
+  0% {
+    opacity: 0;
+    transform: translateY(35%);
+  }
+  100% {
+    transform: translateY(0);
+  }
 }
 
 /* MEDIA QUERIES */
