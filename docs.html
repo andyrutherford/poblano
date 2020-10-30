@@ -11,7 +11,7 @@
     />
     <link rel="stylesheet" href="css/utils.css" />
     <link rel="stylesheet" href="css/style.css" />
-    <title>Poblano | Features</title>
+    <title>Poblano | Documentation</title>
   </head>
   <body>
     <header>
@@ -33,66 +33,72 @@
         </div>
       </div>
     </header>
-    <section class="features-head bg-primary py-3">
+    <section class="docs-head bg-primary py-3">
       <div class="container grid">
         <div>
-          <h1 class="xl">Features</h1>
-          <p className="lead">Find out what makes us really stand out.</p>
-        </div>
-        <div class="img"></div>
-      </div>
-    </section>
-    <section class="features-sub-head bg-light py-3">
-      <div class="container grid">
-        <div>
-          <h1 class="md">The Poblano Platform</h1>
-          <p>
-            Your apps run inside smart containers in a fully managed runtime
-            environment, we handle everything critical for production —
-            configuration, orchestration, load balancing, failovers, logging,
-            security, and more.
+          <h1 class="xl">Documentation</h1>
+          <p className="lead">
+            Find all published technical documentation for the Heroku platform.
           </p>
         </div>
         <div class="img"></div>
       </div>
     </section>
-    <section class="features-main my-2">
-      <div class="container grid grid-3">
-        <div class="card flex">
-          <div class="features-icon" id="icon-one"></div>
+    <section class="docs-main my-4">
+      <div class="container grid">
+        <div class="card bg-light p-3">
+          <h3 class="my-2">Essentials</h3>
+          <nav>
+            <ul>
+              <li><a class="text-primary" href="#!">Introduction</a></li>
+              <li><a href="#!">About Poblano</a></li>
+              <li><a href="#!">Installation</a></li>
+            </ul>
+          </nav>
+          <h3 class="my-2">Deployment</h3>
+          <nav>
+            <ul>
+              <li><a href="#!">Setting up a container</a></li>
+              <li><a href="#!">Using the CLI</a></li>
+              <li><a href="#!">Managing resources</a></li>
+              <li><a href="#!">Upgrade & Downgrade</a></li>
+            </ul>
+          </nav>
+        </div>
+        <div class="card">
+          <h2>Set up</h2>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-            repellat esse voluptas aut harum facere!
+            In this step you’ll install the Heroku Command Line Interface (CLI).
+            You use the CLI to manage and scale your applications, provision
+            add-ons, view your application logs, and run your application
+            locally.
           </p>
-        </div>
-        <div class="card flex">
-          <div class="features-icon" id="icon-two"></div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-            repellat esse voluptas aut harum facere!
-          </p>
-        </div>
-        <div class="card flex">
-          <div class="features-icon" id="icon-three"></div>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic
-            repellat esse voluptas aut harum facere!
-          </p>
-        </div>
-        <div class="card flex">
-          <div class="features-icon" id="icon-four"></div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="card flex">
-          <div class="features-icon" id="icon-five"></div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-        </div>
-        <div class="card flex">
-          <div class="features-icon" id="icon-six"></div>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+          <div class="alert alert-success">
+            <div class="icon"></div>
+            <p>
+              The Heroku CLI requires Git, the popular version control system,
+              which you can download <a href="#!">here</a>.
+            </p>
+          </div>
+          <h3>Poblano CLI</h3>
+          <p>Download and run the installer for your platform:</p>
+          <a href="#!" class="btn btn-primary">Install CLI</a>
+          <h3>Requirements</h3>
+          <ul>
+            <li>Windows 10, Mac OSX, Linux</li>
+            <li>Node.js v12 or higher</li>
+          </ul>
+          <h3>Install</h3>
+          <p>Mac (Homebrew)</p>
+          <pre><code>$ brew install poblano-cli</code></pre>
+          <p>NPM</p>
+          <pre><code>$ npm install poblano-cli</code></pre>
+          <p>Yarn</p>
+          <pre><code>$ yarn install poblano-cli</code></pre>
         </div>
       </div>
     </section>
+
     <footer class="footer bg-light py-5">
       <div class="container top">
         <div class="grid grid-footer">

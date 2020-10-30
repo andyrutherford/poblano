@@ -6,6 +6,8 @@
   --secondary-color: #9c232b;
   --dark-color: #420f12;
   --light-color: #f4f4f4;
+  --success-color: #5cb85c;
+  --danger-color: #d9534f;
 }
 
 * {
@@ -42,6 +44,13 @@ p {
 
 img {
   width: 100%;
+}
+
+pre,
+code {
+  background: #333;
+  color: #fff;
+  padding: 10px;
 }
 
 /* Navbar */
@@ -285,8 +294,8 @@ img {
 
 .features-head .img,
 .features-sub-head .img {
-  width: 200px;
-  height: 200px;
+  width: 150px;
+  height: 150px;
   justify-self: center;
   background-image: url('../assets/svg/server.svg');
   background-size: 100% 100%;
@@ -334,6 +343,35 @@ img {
 }
 #icon-six {
   background: url('../assets/svg/laptop.svg');
+  background-size: 100% 100%;
+}
+
+/* Docs */
+
+.docs-main h3 {
+  margin: 20px 0;
+}
+
+.docs-main .grid {
+  grid-template-columns: 1fr 2fr;
+  align-items: start;
+}
+
+.docs-main nav li {
+  padding: 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #ccc;
+}
+
+.docs-main a:hover {
+  font-weight: bold;
+}
+
+.docs-head .img {
+  width: 150px;
+  height: 150px;
+  justify-self: center;
+  background-image: url('../assets/svg/docs.svg');
   background-size: 100% 100%;
 }
 
